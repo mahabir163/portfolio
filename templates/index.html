@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mahabir Paul - Data Analyst, Python Developer and Data Science enthusiast.">
+    <title>Mahabir Paul | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <a href="#home" class="logo">
+            <span class="terminal-icon">›_</span> DATA_SCIENTIST
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact" class="mobile-contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Contact Me</a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="hero-grid"></div>
+
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Available for Hire
+                </div>
+
+                <h1>
+                    Turning Data into
+                    <span class="gradient-text">Intelligence</span>
+                </h1>
+
+                <p class="hero-description">
+                    I’m <strong>Mahabir Paul</strong> — an aspiring Data Analyst and Python
+                    Developer focused on transforming raw data into meaningful insights,
+                    interactive dashboards, and intelligent solutions.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-btn">
+                        View Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <div class="socials">
+                        <a href="https://github.com/mahabir163" target="_blank" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mahabir-paul/" target="_blank" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:mahabirp163@gmail.com" aria-label="Email">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+            <div class="section-heading reveal">
+                <span class="eyebrow">01 / ABOUT</span>
+                <h2>Data with <span class="gradient-text">purpose.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="large-text">
+                        I’m <strong>Mahabir Paul</strong>, an aspiring Data Analyst
+                        and final-year B.Tech CSE (Data Science) student.
+                    </p>
+
+                    <p>
+                        I enjoy working with data, finding patterns, building
+                        dashboards, and developing practical software solutions.
+                        My toolkit combines Python, SQL, Excel, Power BI and
+                        web technologies.
+                    </p>
+
+                    <p>
+                        I’m passionate about building full-stack AI and Python-based web solutions,
+                        where I can design the frontend, develop the backend, integrate APIs and
+                        databases, and bring intelligent AI-powered features together into a
+                        complete, practical application.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Let's work together <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="stats-grid reveal">
+                    <div class="stat-card">
+                        <span class="stat-number">9.4</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">180+</span>
+                        <span class="stat-label">LeetCode Problems</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Core Tools</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Curiosity</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section skills-section" id="skills">
+            <div class="section-heading reveal">
+                <span class="eyebrow">02 / SKILLS</span>
+                <h2>My technical <span class="gradient-text">stack.</span></h2>
+            </div>
+
+            <div class="skills-layout">
+                <div class="skill-category reveal">
+                    <div class="category-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Data Analytics</h3>
+                    <p>Turning raw datasets into useful business insights.</p>
+                    <div class="skill-tags">
+                        <span>Excel</span><span>Power BI</span><span>EDA</span>
+                        <span>Statistics</span><span>Data Cleaning</span><span>Visualization</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="category-icon"><i class="fa-brands fa-python"></i></div>
+                    <h3>Programming</h3>
+                    <p>Building reliable solutions with clean and practical code.</p>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C</span><span>C++(OOP)</span><span>Pandas</span>
+                        <span>NumPy</span><span>SQL</span><span>REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="category-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI &amp; ML</h3>
+                    <p>Exploring intelligent systems and predictive solutions.</p>
+                    <div class="skill-tags">
+                        <span>Machine Learning</span><span>Deep Learning</span>
+                        <span>Generative AI</span><span>LLMs</span><span>SK-learn</span>
+                        <span>TensorFlow</span><span>Keras</span><span>OpenCV</span>
+
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive interfaces and backend applications.</p>
+                    <div class="skill-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        <span>Tailwind CSS</span><span>Jinja2</span>
+                        <span>Django</span><span>Flask</span>
+                        <span>FastAPI</span>
+                        <span>Git</span><span>GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects-section" id="projects">
+            <div class="section-heading project-heading reveal">
+                <div>
+                    <span class="eyebrow">03 / PROJECTS</span>
+                    <h2>Selected <span class="gradient-text">work.</span></h2>
+                </div>
+                <p>Some projects that showcase my approach to data, software and AI.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card featured reveal">
+                    <div class="project-top">
+                        <span class="project-number">01</span>
+                        <span class="project-type">DATA ANALYTICS</span>
+                    </div>
+                    <div class="project-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h3>Data-Driven Insights</h3>
+                    <p>
+                        EDA projects focused on data cleaning, visualization, statistical analysis, and actionable insights.
+                    </p>
+                    <div class="project-tech">
+                        <span>Power BI</span><span>DAX</span><span>Excel</span><span>EDA</span>
+                        <span>Python</span><span>Pandas</span><span>Numpy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <a href="https://github.com/mahabir163/EDA" class="project-link">View Project<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <span class="project-number">02</span>
+                        <span class="project-type">Full-Stack Data Science Project</span>
+                    </div>
+                    <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>GrocerAI Web Application</h3>
+                    <p>
+                         AI-powered grocery app with bill upload ordering, APIs, backend services, and an interactive web interface.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span><span>Django</span><span>OCR</span><span>SQL</span>
+                        <span>LLM</span><span>HTML</span><span>TailwindCSS</span><span>JS</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/mahabir163/grocerAI" class="project-link">View Project On Github <i class="fa-solid fa-arrow-up-right-from-square"></i><span> |</span></a>
+                        <a href="https://grocerai-010604.onrender.com/" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <span class="project-number">03</span>
+                        <span class="project-type">Object Detection</span>
+                    </div>
+                    <div class="project-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h3>Waste Detection System - Group Project</h3>
+                    <p>
+                        Image-based waste detection system that checks whether an uploaded image contains waste, 
+                        with supporting application components.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span><span>Django</span><span>Object Detection</span>
+                    </div>
+                    <a href="https://github.com/Mrincxyl/Community_Waste_Management_System" class="project-link">View Project On Github<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <!--Certification-->
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="section-heading project-heading reveal">
+                <div>
+                    <span class="eyebrow"> 04 / Certifications</span>
+                    <h2>My <span class="gradient-text">Certifications.</span></h2>
+                </div>
+            </div>
+
+            <div class="certifications-grid">
+
+                <div class="certification-card reveal">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+
+                    <div class="cert-content">
+                        <h3>Data Analytics With Python</h3>
+                        <h4>~ NPTEL (IIT Roorkee)<h4> <br>
+                        <p>Python programming, Statistics, Machine Learning</p>
+                       
+                    </div>
+                </div>
+
+                <div class="certification-card reveal">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+
+                    <div class="cert-content">
+                        <h3>Data Science With Gen AI</h3>
+                        <h4>~ PW Skills<h4> <br>
+                        <p>Python programming, Statistics, Machine Learning, Deep Learning, Gen AI, SQL, Power BI</p>
+                       
+                    </div>
+                </div>
+
+                <div class="certification-card reveal">
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <div class="cert-content">
+                        <h3>My SQL Basic - Advance</h3>
+                        <h4>~ RDP<h4> <br>
+                        <p>MySQL, Excel </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Industrial Training-->
+        <section class="section">
+            <div class="section-heading project-heading reveal">
+                <div>
+                    <span class="eyebrow">05 / Industrial Training</span>
+                    <h2>Practical <span class="gradient-text">experience.</span></h2>
+                </div>
+                <div>
+                <p>Hands-on industrial training that strengthened my practical skills and industry experience.</p><br>
+                <p><b>Full Stack Django Developer</b> -Techno Exponent</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section experience-section" id="experience">
+            <div class="section-heading reveal">
+                <span class="eyebrow">06 / EXPERIENCE</span>
+                <h2>Learning through <span class="gradient-text">building.</span></h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2026 — PRESENT</div>
+                    <div class="timeline-content">
+                        <h3>Final-Year B.Tech — CSE (Data Science)</h3>
+                        <p>
+                            Developing skills across data analytics, Python,
+                            machine learning, software development and AI.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">PROJECT WORK</div>
+                    <div class="timeline-content">
+                        <h3>Data &amp; Software Projects</h3>
+                        <p>
+                            Built dashboards, web applications and data-driven
+                            solutions using Python, SQL, Flask, Django and Power BI.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">CONTINUOUS</div>
+                    <div class="timeline-content">
+                        <h3>Problem Solving</h3>
+                        <p>
+                            Practicing algorithmic problem solving and strengthening
+                            Python and data-structure fundamentals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+            <div class="contact-box reveal">
+                <span class="eyebrow">07 / CONTACT</span>
+                <h2>Let's build something <span class="gradient-text">meaningful.</span></h2>
+                <p>
+                    Have a project, opportunity or idea? Send me a message  and
+                    let's start a conversation.
+                </p>
+                <p><b>Contact Number :</b>+91 7439273062<p>
+
+                <form id="contactForm">
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Your name" required>
+                        <input type="email" id="email" placeholder="Your email" required>
+                    </div>
+                    <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+
+                    <button type="submit" class="primary-btn submit-btn">
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                    <div id="formStatus"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <span class="footer-logo">›_ DATA_SCIENTIST</span>
+            <p>Turning data into intelligence.</p>
+        </div>
+        <p>© <span id="year"></span> Mahabir Paul. All rights reserved.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
